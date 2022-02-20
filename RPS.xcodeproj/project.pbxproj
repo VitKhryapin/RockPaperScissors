@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB16BD3727C296B500338AB5 /* PreviewScreenSecond.png in Resources */ = {isa = PBXBuildFile; fileRef = FB16BD3527C296B500338AB5 /* PreviewScreenSecond.png */; };
+		FB16BD3827C296B500338AB5 /* PreviewScreenFirst.png in Resources */ = {isa = PBXBuildFile; fileRef = FB16BD3627C296B500338AB5 /* PreviewScreenFirst.png */; };
 		FB64D8C32726D74F001C1DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D8C22726D74F001C1DE2 /* AppDelegate.swift */; };
 		FB64D8C52726D74F001C1DE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D8C42726D74F001C1DE2 /* SceneDelegate.swift */; };
 		FB64D8C72726D74F001C1DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D8C62726D74F001C1DE2 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		FB64D8CF2726D751001C1DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB64D8CD2726D751001C1DE2 /* LaunchScreen.storyboard */; };
 		FB64D8DA2726D751001C1DE2 /* RPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D8D92726D751001C1DE2 /* RPSTests.swift */; };
 		FB64D8E52726D751001C1DE2 /* RPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D8E42726D751001C1DE2 /* RPSUITests.swift */; };
+		FB64D8F32726D843001C1DE2 /* gameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D8F22726D843001C1DE2 /* gameState.swift */; };
+		FB64D8F52726D879001C1DE2 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB64D8F42726D879001C1DE2 /* Sign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB16BD3527C296B500338AB5 /* PreviewScreenSecond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviewScreenSecond.png; sourceTree = SOURCE_ROOT; };
+		FB16BD3627C296B500338AB5 /* PreviewScreenFirst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviewScreenFirst.png; sourceTree = SOURCE_ROOT; };
 		FB64D8BF2726D74F001C1DE2 /* RPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB64D8C22726D74F001C1DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB64D8C42726D74F001C1DE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		FB64D8E02726D751001C1DE2 /* RPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB64D8E42726D751001C1DE2 /* RPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSUITests.swift; sourceTree = "<group>"; };
 		FB64D8E62726D751001C1DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB64D8F22726D843001C1DE2 /* gameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameState.swift; sourceTree = "<group>"; };
+		FB64D8F42726D879001C1DE2 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				FB64D8CB2726D751001C1DE2 /* Assets.xcassets */,
 				FB64D8CD2726D751001C1DE2 /* LaunchScreen.storyboard */,
 				FB64D8D02726D751001C1DE2 /* Info.plist */,
+				FB64D8F22726D843001C1DE2 /* gameState.swift */,
+				FB64D8F42726D879001C1DE2 /* Sign.swift */,
+				FB16BD3627C296B500338AB5 /* PreviewScreenFirst.png */,
+				FB16BD3527C296B500338AB5 /* PreviewScreenSecond.png */,
 			);
 			path = RPS;
 			sourceTree = "<group>";
@@ -231,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB16BD3827C296B500338AB5 /* PreviewScreenFirst.png in Resources */,
+				FB16BD3727C296B500338AB5 /* PreviewScreenSecond.png in Resources */,
 				FB64D8CF2726D751001C1DE2 /* LaunchScreen.storyboard in Resources */,
 				FB64D8CC2726D751001C1DE2 /* Assets.xcassets in Resources */,
 				FB64D8CA2726D74F001C1DE2 /* Main.storyboard in Resources */,
@@ -259,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB64D8C72726D74F001C1DE2 /* ViewController.swift in Sources */,
+				FB64D8F32726D843001C1DE2 /* gameState.swift in Sources */,
+				FB64D8F52726D879001C1DE2 /* Sign.swift in Sources */,
 				FB64D8C32726D74F001C1DE2 /* AppDelegate.swift in Sources */,
 				FB64D8C52726D74F001C1DE2 /* SceneDelegate.swift in Sources */,
 			);
@@ -445,7 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Khryapin-Vitalya.RPS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Khryapin-Vitalya.RPS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

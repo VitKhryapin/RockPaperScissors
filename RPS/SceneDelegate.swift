@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  RPS
 //
-//  Created by Кот on 25.10.2021.
+//  Created by Vitaly Khryapin on 25.10.2021.
 //
 
 import UIKit
